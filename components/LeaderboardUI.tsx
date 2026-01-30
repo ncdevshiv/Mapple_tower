@@ -18,7 +18,7 @@ export const LeaderboardUI: React.FC<LeaderboardUIProps> = ({ levelId, onClose }
     }, [levelId]);
 
     return (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm pointer-events-auto">
             <div className="bg-slate-900 border border-slate-700 p-6 rounded-xl w-[500px] shadow-2xl relative max-h-[80vh] flex flex-col">
                 <button onClick={onClose} className="absolute top-4 right-4 text-slate-500 hover:text-white">✕</button>
 
