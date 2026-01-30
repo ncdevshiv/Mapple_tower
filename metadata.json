@@ -1,0 +1,5 @@
+{
+  "name": "Clash Defense",
+  "description": "A high-fidelity, modular, single-player tower defense game featuring a grid-based map, multiple tower types, enemy variations, and a robust upgrade system. Built with a data-driven architecture ready for future multiplayer and Web3 integration.",
+  "requestFramePermissions": []
+}
